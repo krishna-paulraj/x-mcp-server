@@ -1,0 +1,30 @@
+{
+  "name": "x-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for posting tweets to X (Twitter)",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "jest",
+    "test-auth": "node scripts/test-auth.js",
+    "test-post": "node scripts/test-post-tweet.js"
+  },
+  "keywords": ["mcp", "twitter", "x", "social-media"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "twitter-api-v2": "^1.15.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "tsx": "^4.6.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0"
+  }
+}
