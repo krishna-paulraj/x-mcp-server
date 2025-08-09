@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server for posting tweets to X (Twitter) and interacting with the X API.
 
+<a href="https://glama.ai/mcp/servers/@krishna-paulraj/x-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@krishna-paulraj/x-mcp-server/badge" alt="X Server MCP server" />
+</a>
+
 ## Features
 
 - **Post Tweets**: Create and post tweets to X (Twitter)
@@ -181,4 +185,3 @@ For issues and questions:
 2. Verify your API credentials are correct
 3. Ensure you have the necessary X API permissions
 4. Check the X API documentation for rate limits and restrictions
-# x-mcp-server
